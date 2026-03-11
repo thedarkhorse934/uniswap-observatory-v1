@@ -4,3 +4,10 @@ obs.ndjson
 dist
 .DS_Store
 .env
+node_modules
+*.csv
+*.ndjson
+latest.json
+runs*
+out*
+.DS_Store
