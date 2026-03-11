@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uniswap Observatory Viewer</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">UNISWAP OBSERVATORY</p>
+        <h1>Local Viewer</h1>
+      </div>
+      <div class="topbar-meta">
+        <div class="meta-pill">
+          <span class="meta-label">Status</span>
+          <span id="statusText" class="meta-value">Loading…</span>
+        </div>
+        <div class="meta-pill">
+          <span class="meta-label">Last updated</span>
+          <span id="lastUpdated" class="meta-value">—</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="summary-grid">
+      <div class="summary-card">
+        <div class="summary-label">Latest block</div>
+        <div id="latestBlock" class="summary-value">—</div>
+      </div>
+
+      <div class="summary-card summary-card-wide">
+        <div class="summary-label">RPC summary</div>
+        <div id="rpcSummary" class="summary-value summary-value-small">Waiting for data…</div>
+      </div>
+    </section>
+
+    <section id="messageBar" class="message-bar hidden"></section>
+
+    <section>
+      <div class="section-head">
+        <h2>Pools</h2>
+        <span id="poolCount" class="section-subtle">0 pools</span>
+      </div>
+      <div id="poolGrid" class="pool-grid">
+        <div class="empty-state">
+          Waiting for latest.json…
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "name": "uniswap-observatory",
+  "version": "1.0.0",
+  "description": "Local Uniswap monitoring dashboard",
+  "main": "main.cjs",
+  "scripts": {
+    "desktop": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:mac": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "electron": "^latest-you-already-use",
+    "electron-builder": "^latest"
+  },
+  "build": {
+    "appId": "com.willy.uniswapobservatory",
+    "productName": "Uniswap Observatory",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.cjs",
+      "index.js",
+      "viewer/**/*",
+      "latest.json",
+      "obs.ndjson",
+      "pools.json",
+      "package.json"
+    ],
+    "asar": true,
+    "mac": {
+      "category": "public.app-category.finance",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "build/icon.icns"
+    }
+  }
+}

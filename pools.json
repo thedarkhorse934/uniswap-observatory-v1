@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "chainId": 1,
+  "note": "Uniswap V2 pair addresses on Ethereum mainnet. Add more pools under pools[].",
+  "pools": [
+    {
+      "name": "USDC/WETH",
+      "pair": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc"
+    },
+    {
+      "name": "WBTC/WETH",
+      "pair": "0xBb2b8038a1640196FbE3e38816F3e67Cba72D940"
+    },
+    {
+      "name": "USDT/WETH",
+      "pair": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852"
+    },
+    {
+      "name": "USDC/USDT",
+      "pair": "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f"
+    }
+  ]
+}

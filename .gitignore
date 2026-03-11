@@ -1,0 +1,6 @@
+node_modules
+latest.json
+obs.ndjson
+dist
+.DS_Store
+.env
