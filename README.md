@@ -2,13 +2,18 @@
 
 A **local monitoring tool for Uniswap liquidity pools** that detects price movement, liquidity depth changes, and risk signals in real time.
 
-The project combines a **Node.js monitoring engine** with a **local dashboard viewer** to observe how liquidity pools behave and surface useful signals about pool health and market activity.
+The project combines a **Node.js monitoring engine** with a **local dashboard viewer** to observe how liquidity pools behave and surface useful signals about pool health and market activity.<img width="1366" height="768" alt="Screenshot 2026-03-11 at 18 19 38" src="https://github.com/user-attachments/assets/43cf342b-671c-4987-9d98-b4fcc55b28dd" />
+
 
 ---
 
 # 📸 Dashboard
 
-![Dashboard](screenshots/observatory-dashboard.png)
+<img width="1366" height="768" alt="Screenshot 2026-03-11 at 18 19 58" src="https://github.com/user-attachments/assets/7c0644f9-88c1-4b96-8bf0-18978ca38291" />
+
+# Terminal
+
+<img width="1366" height="768" alt="Screenshot 2026-03-11 at 18 19 38" src="https://github.com/user-attachments/assets/43cf342b-671c-4987-9d98-b4fcc55b28dd" />
 
 The dashboard displays:
 
