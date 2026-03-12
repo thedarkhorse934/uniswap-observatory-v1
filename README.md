@@ -217,11 +217,11 @@ The dashboard automatically refreshes every few seconds.
 Example signals detected by the system: 
 
 
-⚠ 1 pool stale
+**⚠ 1 pool stale**
 
-Depth fragile (~5.96% impact for $100k)
+**Depth fragile (~5.96% impact for $100k)**
 
-Flow surge detected
+**Flow surge detected**
 
 
 These signals help identify **potential liquidity risk conditions.**
@@ -232,10 +232,10 @@ These signals help identify **potential liquidity risk conditions.**
 
 Example pools included in the configuration:
 
-USDC / USDT
-USDC / WETH
-USDT / WETH
-WBTC / WETH
+- USDC / USDT
+- USDC / WETH
+- USDT / WETH
+- WBTC / WETH
 
 
 These pools allow the system to derive:
