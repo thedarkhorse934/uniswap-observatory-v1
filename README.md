@@ -1,6 +1,6 @@
 # 🛰️ Uniswap Observatory
 
-A lightweight **local monitoring tool for Uniswap liquidity pools** that detects price movement, liquidity depth changes, and risk signals in real time.
+A **local monitoring tool for Uniswap liquidity pools** that detects price movement, liquidity depth changes, and risk signals in real time.
 
 The project combines a **Node.js monitoring engine** with a **local dashboard viewer** to observe how liquidity pools behave and surface useful signals about pool health and market activity.
 
